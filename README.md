@@ -1,5 +1,7 @@
 Next.js Project
 
+Note: The Project is Uploaded without node modules folder
+
 This project is built using Next.js.
 
 Getting Started
