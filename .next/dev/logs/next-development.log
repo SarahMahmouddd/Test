@@ -1,0 +1,89 @@
+[00:00:03.374] Server  LOG     ✓ Ready in 2.6s
+[00:00:16.603] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:20.824] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Head`. See https://react.dev/link/warning-keys for more information.
+[00:01:34.767] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Head`. See https://react.dev/link/warning-keys for more information.
+[00:03:07.246] Browser LOG     {"data":{"count_items_cart":0,"email":"ahmed60@example.com","email_verified_at":false,"id":627,"image":"https://tinytales.trendline.marketing/default-images/profile.png","mobile":"501134564","mobile_country_code":"971","name":"أحمد محمد","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3Rpbnl0YWxlcy50cmVuZGxpbmUubWFya2V0aW5nL2FwaS9hdXRoL3JlZ2lzdGVyIiwiaWF0IjoxNzcwMzc1NzM2LCJleHAiOjE3NzAzNzkzMzYsIm5iZiI6MTc3MDM3NTczNiwianRpIjoiTm1CZjJrMUVwVFVIQ1lpMSIsInN1YiI6IjYyNyIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.HnnPRMf3oS9T3JVX17rx6Dk8FseUaha2bD02yVkzUTw","type":"client"},"message":"تم إنشاء الحساب بنجاح","status":true,"status_code":200}
+[00:03:07.381] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Head`. See https://react.dev/link/warning-keys for more information.
+[00:03:07.665] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <AppContainer>
+      <Container fn={function fn}>
+        <PagesDevOverlayBridge>
+          <PagesDevOverlayErrorBoundary>
+            <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={true}>
+              <App pageProps={{}} Component={function Verify} err={undefined} router={{sdc:{},sbc:{}, ...}}>
+                <Verify>
+                  <styled.div>
+                    <div
++                     className="sc-beySbL NiGvC"
+-                     className="sc-hLQRIK cKuKVA"
+                    >
+                      <h1>
+                      <form onSubmit={function}>
+                        <styled.input name="code" onChange={function onChange} onBlur={function onChange} ...>
+                          <input
+                            name="code"
+                            onChange={function onChange}
+                            onBlur={function onChange}
+                            placeholder="رمز التحقق"
+                            required={true}
++                           className="sc-guDLRU fLrYPf"
+-                           className="sc-eDLJxb fyHazf"
+                            ref={function ref}
+                          >
+                        <styled.button type="submit">
+                          <button
+                            type="submit"
++                           className="sc-dmyDGl gsUsPO"
+-                           className="sc-jTQDnk kuYhKn"
+                          >
++                           تحقق
+              ...
+
+[00:03:12.750] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Head`. See https://react.dev/link/warning-keys for more information.
+[00:03:13.050] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <AppContainer>
+      <Container fn={function fn}>
+        <PagesDevOverlayBridge>
+          <PagesDevOverlayErrorBoundary>
+            <PathnameContextProviderAdapter router={{sdc:{},sbc:{}, ...}} isAutoExport={true}>
+              <App pageProps={{}} Component={function Dashboard} err={undefined} router={{sdc:{},sbc:{}, ...}}>
+                <Dashboard>
+                  <styled.div>
+                    <div
++                     className="sc-beySbL fdWEIA"
+-                     className="sc-gLLvbB fvWOHC"
+                    >
+              ...
+

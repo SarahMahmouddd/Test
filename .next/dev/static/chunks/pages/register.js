@@ -1,0 +1,12 @@
+__turbopack_load_page_chunks__("/register", [
+  "static/chunks/e70d4_next_dist_compiled_0e873d06._.js",
+  "static/chunks/e70d4_next_dist_shared_lib_9a74f888._.js",
+  "static/chunks/e70d4_next_dist_client_40301c3a._.js",
+  "static/chunks/e70d4_next_dist_7346fe2e._.js",
+  "static/chunks/e70d4_react-dom_f6002ee3._.js",
+  "static/chunks/e70d4_axios_lib_065d3cfa._.js",
+  "static/chunks/e70d4_f287173e._.js",
+  "static/chunks/[root-of-the-server]__3934492d._.js",
+  "static/chunks/Desktop_ITI_Tasks_task_test_pages_register_2da965e7._.js",
+  "static/chunks/turbopack-Desktop_ITI_Tasks_task_test_pages_register_6f17026a._.js"
+])
